@@ -1,0 +1,172 @@
+h1, h2 {
+    font-size: 60px;
+    text-align:center;
+    font-family: Arial;
+    margin: 10px;
+}
+body {
+    background-color: aqua;
+}
+button {
+    display: block;
+    margin: auto;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    cursor: url(tangan\ 2.png), auto;
+}
+.container:active {
+    cursor: url(tangan.png), auto;
+}
+.tanah {
+    width: 180px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    float:left;
+}
+.tanah::after {
+    content:'';
+    display: block;
+    width: 180px;
+    height: 100px;
+    background: url(imag/rumah.png) bottom center no-repeat;
+    background-size: 80%;
+    position: absolute;
+    bottom: -25px;
+}
+.jaiz {
+    width: 100%;
+    height: 100%;
+    background: url(imag/jaiz.png) bottom center no-repeat;
+    background-size: 60%;
+    position: absolute;
+    top: 110px;
+    transition: top 0.3s;
+}
+.yudha {
+    width: 100%;
+    height: 100%;
+    background: url(imag/yudha.png) bottom center no-repeat;
+    background-size: 70%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+.aman {
+    width: 100%;
+    height: 100%;
+    background: url(imag/aman.png) bottom center no-repeat;
+    background-size: 70%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+.anggia {
+    width: 100%;
+    height: 100%;
+    background: url(imag/anggia.png) bottom center no-repeat;
+    background-size: 90%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+.arul {
+    width: 100%;
+    height: 100%;
+    background: url(imag/arul.png) bottom center no-repeat;
+    background-size: 80%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+.bella {
+    width: 100%;
+    height: 100%;
+    background: url(imag/bella.png) bottom center no-repeat;
+    background-size: 60%;
+    position: absolute;
+    top: 150px;
+    transition: top 0.3s;
+}
+.dea {
+    width: 100%;
+    height: 100%;
+    background: url(imag/dea.png) bottom center no-repeat;
+    background-size: 70%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+.dwi {
+    width: 100%;
+    height: 100%;
+    background: url(imag/dwi.png) bottom center no-repeat;
+    background-size: 70%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+.ita {
+    width: 100%;
+    height: 100%;
+    background: url(imag/ita.png) bottom center no-repeat;
+    background-size: 80%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+.rakel {
+    width: 100%;
+    height: 100%;
+    background: url(imag/rakel.png) bottom center no-repeat;
+    background-size: 80%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+.rifki {
+    width: 100%;
+    height: 100%;
+    background: url(imag/rifki.png) bottom center no-repeat;
+    background-size: 70%;
+    position: absolute;
+    top: 100px;
+    transition: top 0.3s;
+}
+
+.tanah.satu .jaiz {
+    top: -15px;
+  }
+.tanah.dua .yudha {
+    top: -15px;
+  }
+.tanah.tiga .aman {
+    top: -15px;
+  }
+.tanah.empat .anggia {
+  top: -15px;
+}
+.tanah.lima .arul {
+  top: -15px;
+}
+.tanah.enam .bella {
+  top: -15px;
+}
+.tanah.tujuh .dea {
+  top: -15px;
+}
+.tanah.dlpan .dwi {
+  top: -15px;
+}
+.tanah.sem .ita {
+top: -15px;
+}
+.tanah.sep .rakel {
+top: -15px;
+}
+.tanah.seb .rifki {
+top: -15px;
+}
+            
